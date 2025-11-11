@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent Apartments</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="md: flex justify-between items-center px-10 py-10">
+
+    <div class="md: flex items-center gap-2">
+      <i class="fa-solid fa-building"></i>
+      <h4 class="text-xl font-bold">M Apartments</h4>
+    </div>
+
+    <ul class="md:flex gap-5 items-center cursor-pointer text-xl hidden">
+      <li>Home</li>
+      <li>Service</li>
+      <li>Agents</li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="md:flex gap-5 items-center hidden">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-user"></i>
+      <button class="btn">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="bg-[url('https://i.pinimg.com/1200x/70/ac/ef/70acef34ef2e0b01d376882e987eb0fe.jpg')] h-[500px] bg-cover bg-center bg-no-repeat md:p-20 p-10">
+    <h1 class="text-white md:text-7xl text-3xl font-bold pb-5">Discover Your <br> New <span>Home</span></h1>
+    <p class="text-white md:w-[460px] pb-5">Explore our curated selection of exquisite
+       properties meticulously tailored to your
+       unique Dream home vision
+      </p>
+
+      <div class="text-black md:flex text-l gap-3 border-2 border-slate-100 p-10 w-[540px] flex-none">
+        <button class="bg-slate-50 py-2 px-3 border-none rounded-[10px]">Current Location &darr;</button>
+        <button class="bg-slate-50 py-2 px-3 border-none rounded-[10px]">Type &darr;</button>
+        <button class="bg-slate-50 py-2 px-3 border-none rounded-[10px]">Price &darr;</button>
+        <button class="bg-green-400 py-2 px-3 border-none rounded-[10px] text-white">Explore More</button>
+      </div>
+  </div>
+
+  <!-- Service -->
+
+  <div class="md:px-20 py-10">
+    <h2 class="text-center text-3xl font-bold pb-10">
+      Our Services
+    </h2>
+
+    <div class="md:flex justify-center gap-10 items-center">
+      <img class="w-[500px] h-[350px] rounded-xl" src="https://i.pinimg.com/736x/2c/fb/10/2cfb101edb31f1202477c82d323993a5.jpg">
+      <div class="text">
+        <h3 class="text-4xl font-bold pb-5">Helping You Discover The <br> Home Of Your Dreams</h3>
+        <p class="text-xl md:w-[500px] pb-5">
+          Our dedicated team helps you every step of the way—from small cottages to lavish estates—so 
+          your dream home becomes real
+        </p>
+
+        <div class="md:flex gap-10 ">
+          <div class="service-one">
+            <h4 class="text-4xl font-bold">1K+</h4>
+            <p>Houses Available</p>
+          </div>
+
+          <div class="service-one">
+            <h4 class="text-4xl font-bold">5K+</h4>
+            <p>Houses Sold</p>
+          </div>
+
+          <div class="service-one">
+            <h4 class="text-4xl font-bold">3K+</h4>
+            <p>Trusted Agent</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="md:px-20 bg-[#ebe5e5] py-10">
+    <div class="md:flex justify-between">
+    <h2 class="text-3xl font-bold capitalize underline">list of properties</h2>
+    <button class="cursor-pointer bg-green-400 py-2 px-3 border-none rounded-[10px] text-white" >View All Properties</button>
+    </div>
+
+    <div class="md:flex gap-8 pt-10">
+      <div class="w-[800px] rounded-tr-[10px] bg-white rounded-tl-[10px] pb-5">
+        <img class="w-[800px] h-[300px] rounded-tr-[10px] rounded-tl-[10px]" src="https://i.pinimg.com/736x/5a/37/e2/5a37e25db6a4274037142387e26acf4d.jpg">
+        <h5 class="md:text-xl pt-4 pl-4">Via Afgooye Road, Mogadishu, Banaadir, 25210</h5>
+        <p class="md:text-l pl-4 pt-2">Private Room</p>
+        <h4 class="md:text-xl pl-4 pt-2 text-orange-600 font-bold">$520/Month</h4>
+
+        <div class="md:flex pl-4 pt-3 gap-45">
+          <div class="room-one">
+            <i class="fa-solid fa-bed"></i>
+            <span>5 Rooms</span>
+          </div>
+          <div class="room-one">
+            <i class="fa-solid fa-bath"></i>
+            <span>3 Bath</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-[800px] rounded-tr-[10px] bg-white rounded-tl-[10px] pb-5">
+        <img class="w-[800px] h-[300px] rounded-tr-[10px] rounded-tl-[10px]" src="https://i.pinimg.com/736x/64/e5/2d/64e52d84ec127fdfac149ae4b47064cd.jpg">
+        <h5 class="md:text-xl pt-4 pl-4">Via No 4 Road, Mogadishu, Banaadir, 22280</h5>
+        <p class="md:text-l pl-4 pt-2">Private Room</p>
+        <h4 class="md:text-xl pl-4 pt-2 text-orange-600 font-bold">$830/Month</h4>
+
+        <div class="md:flex pl-4 pt-3 gap-45">
+          <div class="room-one">
+            <i class="fa-solid fa-bed"></i>
+            <span>3 Rooms</span>
+          </div>
+          <div class="room-one">
+            <i class="fa-solid fa-bath"></i>
+            <span>2 Bath</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-[800px] rounded-tr-[10px] bg-white rounded-tl-[10px] pb-5">
+        <img class="w-[800px] h-[300px] rounded-tr-[10px] rounded-tl-[10px]" src="https://i.pinimg.com/736x/75/b4/2f/75b42fcf621ec64f3d387d5cfaa73533.jpg">
+        <h5 class="md:text-xl pt-4 pl-4">Via Suuq bacaad Road, Mogadishu, Banaadir, 25210</h5>
+        <p class="md:text-l pl-4 pt-2">Private Room</p>
+        <h4 class="md:text-xl pl-4 pt-2 text-orange-600 font-bold">$1550/Month</h4>
+
+        <div class="md:flex pl-4 pt-3 gap-45">
+          <div class="room-one">
+            <i class="fa-solid fa-bed"></i>
+            <span>8 Rooms</span>
+          </div>
+          <div class="room-one">
+            <i class="fa-solid fa-bath"></i>
+            <span>4 Bath</span>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+  <!-- Agents -->
+   <div class="py-25">
+    <h2 class="text-3xl font-bold text-center">Meet Our Agents</h2>
+    <p class='text-center pb-10'>Friendly, trusted, and professional agents</p>
+    <div class="md:flex justify-center gap-10">
+      <div class="one">
+        <img class="w-[350px] h-[250px] rounded-[10px]" src="https://i.pinimg.com/736x/e9/e1/c5/e9e1c5d255ef56600dc434904811fd4d.jpg">
+        <h4 class="text-xl font-bold">John Doe</h4>
+        <p class="text-[18px]">Senior Agent</p>
+      </div>
+
+      <div class="one">
+        <img class="w-[350px] h-[250px] rounded-[10px]" src="https://i.pinimg.com/736x/81/1b/bb/811bbb6cf486c694dc11efe51b932f40.jpg">
+        <h4 class="text-xl font-bold">Jane Smith</h4>
+        <p  class="text-[18px]">Property Consultant</p>
+      </div>
+
+      <div class="one">
+        <img class="w-[350px] h-[250px] rounded-[10px]" src="https://i.pinimg.com/736x/09/e6/19/09e619e918bac4fb852a127e5c79a4dc.jpg">
+        <h4 class="text-xl font-bold">Mike Johnson</h4>
+        <p  class="text-[18px]">Real Estate Agent</p>
+    </div>
+   </div>
+</div>
+
+   <footer class="md:flex bg-[#f3ebeb] justify-around px-10 py-10 items-center">
+    <div class="">
+      <div class="md:flex items-center gap-2 pb-5">
+      <i class="fa-solid fa-building"></i>
+      <h4 class="text-xl font-bold">M Apartments</h4>
+    </div>
+    <p class="w-[250px]">Bringing you closer to your dream home, one click at a time.</p>
+    </div>
+  <div class="list-items">
+  <h3 class="text-2xl font-[500]">About</h3>
+    <ul class="list">
+      <li>Our Story</li>
+      <li>Careers</li>
+      <li>Our Team</li>
+      <li>Resources</li>
+    </ul>
+    </div>
+
+  <div class="list-items">
+    <h3 class="text-2xl font-[500]">Support</h3>
+    <ul class="list">
+      <li>FAQ</li>
+      <li>Contact Us</li>
+      <li>Help Center</li>
+      <li>Terms of Service</li>
+    </ul>
+    </div>
+
+     <div class="list-items">
+    <h3 class="text-2xl font-[500]">Find Us</h3>
+    <ul class="list">
+      <li>Events</li>
+      <li>Locations</li>
+      <li>Newsletter</li>
+    </ul>
+    </div>
+
+    <div class="icons">
+      <h3 class="text-2xl font-[500]">Our Social</h3>
+      <i class="fa-brands fa-facebook"></i>
+      <span>Facebook</span> <br>
+      <i class="fa-brands fa-instagram"></i>
+      <span>Instagram</span> <br>
+      <i class="fa-brands fa-twitter"></i>
+      <span>Twitter</span>
+    </div>
+    </footer>
+</body>
+</html>
